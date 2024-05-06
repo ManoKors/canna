@@ -52,5 +52,5 @@ specificationsRight:
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
-slug: t845    
+slug: petersdream    
 ---

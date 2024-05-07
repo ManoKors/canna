@@ -1,0 +1,43 @@
+---
+// Import necessary components and utilities
+import AvatarBlog from "@components/ui/avatars/AvatarBlog.astro";
+import { Image } from "astro:assets";
+import { formatDate } from "@utils/utils";
+import type { CollectionEntry } from "astro:content";
+
+const { blogEntry, blogLocale = "" } = Astro.props;
+
+interface Props {
+  blogEntry: CollectionEntry<"blog">;
+  blogLocale?: string;
+}
+---
+
+<!-- The following anchor tag is the main container for the card.
+     It's a link to the blog post detailed page.
+     The data-astro-prefetch is an Astro specific Dynamic HTML feature,
+     which automatically prefetches the linked page to speed up navigation. -->
+     <a
+     class="group relative block rounded-xl outline-none ring-zinc-500 transition duration-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
+     href={blogLocale !== "" ? `/${blogLocale}/blog/${blogEntry.slug}/` : `/blog/${blogEntry.slug}/`}
+     data-astro-prefetch
+   >
+     <!-- Container for the blog post's cover image -->
+     <div class="relative h-[500px] w-[335px] flex-shrink-0 overflow-hidden rounded-xl before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-neutral-900/[.7]">
+       <Image
+         class="absolute start-0 top-0 bottom-0 end-0 object-contain transition duration-500 group-hover:scale-110"
+         src={blogEntry.data.cardImage}
+         alt={blogEntry.data.cardImageAlt}
+         draggable={"false"}
+         loading={"eager"}
+         format={"avif"}
+       />
+       <!-- Container for the blog post's title displayed on hover -->
+       <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-neutral-900 bg-opacity-75 backdrop-filter backdrop-blur-lg">
+         <h3 class="text-balance text-lg font-bold text-neutral-50 sm:text-3xl">
+           {blogEntry.data.title}
+         </h3>
+       </div>
+     </div>
+   </a>
+   

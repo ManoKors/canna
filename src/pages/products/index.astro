@@ -105,7 +105,7 @@ const pageTitle: string = `Products | ${SITE.title}`;
     <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
       {
         product.map((product, index) => {
-          const position = index % 5;
+          const position = index % 4;
           if (position === 0 || position === 3) {
             return <CardSmall product={product} />;
           } else {

@@ -7,6 +7,8 @@ authorImageAlt: Avatar Description
 pubDate: 2024-02-06
 cardImage: "@/images/blog/post-1.avif"
 cardImageAlt: Top view mechanical tools arrangement
+secondImage: "@/images/blog/post-2.avif"
+secondImageAlt: Top view mechanical tools arrangement
 readTime: 4
 tags:
   - tools

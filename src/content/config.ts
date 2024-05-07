@@ -74,6 +74,9 @@ const blogCollection = defineCollection({
   cardImageAlt: z.string(),
   readTime: z.number(),
   tags: z.array(z.string()).optional(),
+
+  secondImage: image().optional(), // Adding a field for second image
+  secondImageAlt: z.string().optional(), // Adding a field for second image
   }),
 });
 

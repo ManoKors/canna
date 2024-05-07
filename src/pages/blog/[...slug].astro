@@ -111,6 +111,15 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
           )
         }
       </div>
+                {post.data.secondImage && (
+                  <Image
+                  class="w-full rounded-xl object-cover"
+                  src={post.data.cardImage}
+                  alt={post.data.cardImageAlt}
+                  draggable={"false"}
+                  format={"avif"}
+                  />
+                  )}
       <div
         class="mx-auto grid max-w-screen-lg gap-y-5 sm:flex sm:items-center sm:justify-between sm:gap-y-0"
       >

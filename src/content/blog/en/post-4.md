@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Safety and Workmanship with ScrewFast Construction Services"
+title: "Tolkien - The Lord of the Rings"
 description: "Quality construction services for lasting results"
 author: "Brad"
 authorImage: "@/images/blog/brad.avif"

@@ -80,7 +80,7 @@ const pageTitle: string = `Blog | ${SITE.title}`;
     class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
   >
     <!--Blog posts grid-->
-    <div class="grid gap-6 lg:grid-cols-2">
+    <div class="grid gap-2 sm:grid-cols-1 lg:gap-6 lg:grid-cols-3">
       {otherPosts.map((blogEntry) => <CardBook blogEntry={blogEntry} />)}
     </div>
   </section>

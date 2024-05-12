@@ -11,7 +11,7 @@ import { SITE } from "@data/constants";
 // Get all blogs post in English and sort them based on publish date
 
 const englishBlogEntries = await getCollection("blog", ({ id }) => {
-  return id.startsWith("en/");
+  return id.startsWith("de/");
 });
 
 const blogPosts: CollectionEntry<"blog">[] = englishBlogEntries.sort(
@@ -54,7 +54,7 @@ const pageTitle: string = `Blog | ${SITE.title}`;
       description:
         "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
     },
-    inLanguage: "en-US",
+    inLanguage: "de-DE",
   }}
 >
   <section

@@ -1,5 +1,5 @@
 ---
-title: "Tolkien - The Lord of the Rings"
+title: "J.R.R. Tolkien - The Lord of the Rings"
 description: "Quality construction services for lasting results"
 author: "Brad"
 authorImage: "@/images/blog/brad.avif"

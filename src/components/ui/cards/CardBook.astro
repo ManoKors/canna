@@ -13,10 +13,8 @@ interface Props {
 }
 ---
 
-<!-- The following anchor tag is the main container for the card.
-     It's a link to the blog post detailed page.
-     The data-astro-prefetch is an Astro specific Dynamic HTML feature,
-     which automatically prefetches the linked page to speed up navigation. -->
+<!-- This anchor tag serves as the primary container for the card, linking to the detailed blog post page.
+     It utilizes data-astro-prefetch, an Astro-specific Dynamic HTML feature, for automatic page prefetching to enhance navigation speed. -->
      <a
      class="group relative block rounded-xl outline-none ring-zinc-500 transition duration-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
      href={blogLocale !== "" ? `/${blogLocale}/blog/${blogEntry.slug}/` : `/blog/${blogEntry.slug}/`}
@@ -34,7 +32,8 @@ interface Props {
        />
        <!-- Container for the blog post's title displayed on hover -->
        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-neutral-900 bg-opacity-75 backdrop-filter backdrop-blur-lg">
-         <h3 class="text-balance text-lg font-bold text-neutral-50 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+         <!-- The title of the blog post with adjusted font size and color for better readability -->
+         <h3 class="text-white text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center px-4">
            {blogEntry.data.title}
          </h3>
        </div>

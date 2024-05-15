@@ -1,11 +1,11 @@
 ---
-title: "Brandon Sanderson - Der Weg der Könige"
+title: "J.R.R. Tolkien - The Lord of the Rings"
 description: "Quality construction services for lasting results"
 author: "Brad"
 authorImage: "@/images/blog/brad.avif"
 authorImageAlt: "Avatar Description"
-pubDate: 2024-02-11
-cardImage: "@/images/bookcover/sanderson-der-weg-der-koenige-cover-heyne.avif"
+pubDate: 2024-15-05
+cardImage: "@/images/bookcover/ardalan-eleventh-cycle.webp"
 cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
 readTime: 5
 tags: ["safety", "craftsmanship", "management" ]

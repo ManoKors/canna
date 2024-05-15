@@ -5,7 +5,7 @@ author: "Brad"
 authorImage: "@/images/blog/brad.avif"
 authorImageAlt: "Avatar Description"
 pubDate: 2024-02-11
-cardImage: "@/images/blog/rings.avif"
+cardImage: "@/images/bookcover/sanderson-der-weg-der-koenige-cover-heyne.avif"
 cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
 readTime: 5
 tags: ["safety", "craftsmanship", "management" ]

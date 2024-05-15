@@ -5,7 +5,7 @@ description: Innovating Construction Efficiency with Precision Tools & Support
 author: Jacob
 authorImage: "@/src/images/bookcover/sanderson-der-weg-der-koenige-cover-heyne.avif"
 authorImageAlt: Avatar Description
-pubDate: 2024-02-06
+pubDate: 2024-04-16
 cardImage: "@/images/blog/post-1.avif"
 cardImageAlt: Top view mechanical tools arrangement
 secondImage: "@/images/blog/post-2.avif"

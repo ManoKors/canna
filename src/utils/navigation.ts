@@ -1,3 +1,5 @@
+// navigation.ts
+
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },

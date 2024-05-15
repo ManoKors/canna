@@ -1,10 +1,13 @@
 ---
-title: "J.R.R. Tolkien - The Lord of the Rings"
+booktitle: Eleventh Cycle
+
+
+title: "Kian N. Ardalan - Eleventh Cycle"
 description: "Quality construction services for lasting results"
 author: "Brad"
 authorImage: "@/images/blog/brad.avif"
 authorImageAlt: "Avatar Description"
-pubDate: 2024-15-05
+pubDate: 2024-15-01
 cardImage: "@/images/bookcover/ardalan-eleventh-cycle.webp"
 cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
 readTime: 5

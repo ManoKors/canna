@@ -7,7 +7,6 @@ cardImageAlt: "Ardalan Eleventh Cycle Book Cover"
 
 In the world of construction, where innovation meets practicality, ScrewFast stands as a beacon of pioneering advancements. For years, this company has been at the forefront of revolutionizing construction through its unwavering commitment to advanced technology and innovative solutions. From skyscrapers to bridges, ScrewFast has left an indelible mark on the industry, shaping the future of construction in ways once thought unimaginable.
 
-![Ardalan Eleventh Cycle Book Cover](@/images/bookcover/ardalan-eleventh-cycle.webp)
 
 ## A Legacy of Innovation
 
@@ -30,6 +29,8 @@ From 3D modeling to Building Information Modeling (BIM), ScrewFast employs cutti
 In a world increasingly concerned with sustainability, ScrewFast has taken proactive steps to minimize its environmental footprint. By prioritizing eco-friendly materials and sustainable construction practices, the company is leading the charge towards a greener future.
 
 One notable example is ScrewFast's commitment to modular construction—a method that involves prefabricating building components off-site and assembling them on-site. This approach not only reduces construction waste but also minimizes disruption to local ecosystems, making it a win-win for both builders and the environment.
+
+![A Sword in the night of desert](@/images/illustrations/desert-knight-eleventh-cycle.avif)
 
 ## The Road Ahead: Challenges and Opportunities
 

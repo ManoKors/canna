@@ -30,7 +30,7 @@ In a world increasingly concerned with sustainability, ScrewFast has taken proac
 
 One notable example is ScrewFast's commitment to modular construction—a method that involves prefabricating building components off-site and assembling them on-site. This approach not only reduces construction waste but also minimizes disruption to local ecosystems, making it a win-win for both builders and the environment.
 
-![A Sword in the night of desert](@/images/illustrations/desert-knight-eleventh-cycle.avif)
+![A Sword in the desert](@/images/illustrations/desert-knight-eleventh-cycle.avif)
 
 ## The Road Ahead: Challenges and Opportunities
 

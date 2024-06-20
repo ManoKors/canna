@@ -1,5 +1,19 @@
 // https://docs.astro.build/en/guides/content-collections/#defining-collections
 
+// astro.config.ts
+
+import { defineConfig } from "astro/config";
+import pagefind from "astro-pagefind";
+
+export default defineConfig({
+  build: {
+    format: "file",
+  },
+  integrations: [pagefind()],
+});
+
+// content-collections.ts
+
 import { z, defineCollection } from 'astro:content';
 import { docsSchema } from '@astrojs/starlight/schema';
 

@@ -1,7 +1,6 @@
 ---
 booktitle: Eleventh Cycle
 
-
 title: "Kian N. Ardalan - Eleventh Cycle"
 description: "Quality construction services for lasting results"
 author: "Brad"
